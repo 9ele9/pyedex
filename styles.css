@@ -1,0 +1,113 @@
+@font-face {
+  font-family: 'Cram';
+  src: url('/resources/cormorant_light_macroman.woff') format('woff');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Cram';
+  
+}
+#main{
+    display:none;
+}
+
+.main-menu  {
+  /*border: 1px solid #fff; */
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+   background-color:#f0f0f0;
+   border:5px solid #7a0019;
+   margin:1px;
+}
+
+.search{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.search-bar{
+    display: flex;
+}
+
+.fightle h1 {
+    display:flex;
+    padding-top:30px;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+.fightle img {
+    display:flex;
+}
+
+.butt-hold {
+    margin-left:45vw;
+    margin-right:45vw;
+    /*margin-left:10vw;
+    margin-right:10vw;*/
+}
+
+.duel-disk {
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+.versus {
+    display:flex;
+    padding-top:250px;
+}
+
+.card {
+    display:flex;
+    border:3px solid #7a0019;
+    padding:20px;
+    margin:20px;
+}
+.main-info{
+    display:flex;
+    flex-direction: row;
+    border:3px solid #7a0019;
+    margin: auto;
+    padding:20px;
+}
+
+.welcome {
+    justify-content:center;
+    text-align: center;
+}
+
+.other-info{
+    display:flex;
+    flex-direction: column;
+    
+    padding: 20px;
+}
+
+
+
+.info-snippet{
+    display:flex;
+    flex-direction:row;
+    white-space:pre;
+}
+
+#name {
+    text-align:center;
+}
+
+#footer {
+   text-align:center;
+   color:#C8C8C8;
+   bottom: 0;
+   width: 100%;
+   padding-top: 17px;
+   height: 60px;   /* Height of the footer */
+   background: #7a0019;
+}
